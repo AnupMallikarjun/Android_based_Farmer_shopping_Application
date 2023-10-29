@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_Food">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="52dp" />
+        <ImageView
+            android:id="@+id/imageID"
+            android:layout_width="match_parent"
+            android:layout_height="370dp" />
+
+        <EditText
+            android:visibility="gone"
+            android:id="@+id/imageNameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageID"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <EditText
+
+            android:id="@+id/imageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageID"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="Product name" />
+        <EditText
+            android:hint="Enter Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adddes"/>
+        <EditText
+            android:id="@+id/enteroffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Offer"/>
+        <EditText
+            android:id="@+id/enterrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Rate"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Select type"/>
+
+        <Spinner
+            android:id="@+id/spineer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/text"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chooseBtn"
+            android:text="Choose Image"
+            android:layout_below="@+id/imageNameET"
+            android:onClick="selectImage"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadBtn"
+            android:text="Upload Image"
+            android:layout_below="@+id/chooseBtn"
+            android:onClick="uploadImage"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "157462336702",
+    "project_id": "agrishop-bb32a",
+    "storage_bucket": "agrishop-bb32a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157462336702:android:849e10f51810b2f016faef",
+        "android_client_info": {
+          "package_name": "com.example.agrishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157462336702-g4t4mnamajabo39ioj6bsl1vmssnllvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEUnzty7_vNEo3Jw6_Z2aKBCzZTW6javQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157462336702-g4t4mnamajabo39ioj6bsl1vmssnllvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
